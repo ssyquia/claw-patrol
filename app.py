@@ -13,7 +13,7 @@ c2.image(
 
 # Title and header
 st.markdown(
-    "<h1 style='text-align: center; color: black;'>Dinosaur Cross Breeder</h1>",
+    "<h1 style='text-align: center; color: black;'>Dinosaur Species Detector</h1>",
     unsafe_allow_html=True)
 
 dino_names = [
