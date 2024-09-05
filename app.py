@@ -23,12 +23,6 @@ def download_file_from_google_drive(file_id, destination):
     else:
         print(f"Failed to download file from Google Drive, status code {response.status_code}")
 
-# Check if the model file exists, if not download it
-if not os.path.exists(DESTINATION):
-    st.info("Downloading the model, please wait...")
-    download_file_from_google_drive(FILE_ID, DESTINATION)
-    st.success("Model downloaded successfully!")
-
 # Define columns
 c1, c2, c3 = st.columns(3)
 
